@@ -4,4 +4,50 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  .body{
+    background-color: black;
+    max-width: 1440px;
+    margin: 0px auto;
+
+  }
+
+  /*shared style*/
+
+  .display-flex{
+    display: flex;
+
+  }
+
+  .text-01{
+    color:rgba(255, 255, 255, 1) ;
+  }
+
+  .text-02{
+    color: rgba(255, 255, 255, 0.5);
+  }
+/* nav style*/
+
+.brand{
+  color: rgba(230, 83, 60, 1);
+  font-weight: 900;
+  font-style: italic;
+ 
+}
+.nav-link{
+  text-decoration: none;
+
+}
+
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+
+  }
+.navbar{
+  justify-content: space-between;
+}
+
+
+  
   
