@@ -12,6 +12,14 @@
 
   }
 
+  .shape {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
   /*shared style*/
 
   .display-flex{
@@ -49,5 +57,123 @@
 }
 
 
+
+.img1{
+ 
+}
+
+.b1{
+  width: 520px;
+}
+
+.contain-01{
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+  
+ /* habit section*/
+ .habit{
+  width: 1044px;
+  height: 452px;
+  justify-content: center;
+  padding: 100px 198px 100px 198px;
+ }
+
+ .title{
+
+  text-align: center;
+  width: 671px;
+  height: 120px;
+  padding: 0px 186.5px 58px 186.5px;
+ }
+
+ .title1{
+  width: 476px;
+  height: 58px;
+  font-size: 48px;
+  padding: 0px 97.5px 5px 97.5px;
+  
+ }
+
+ .p1{
+  
+  color: rgba(255, 255, 255, 0.5);
+ }
+
+ .p2{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+ }
+
+ .habits{
+  display: flex;
+  text-align: center;
+  padding-top: 58px;
+  gap: 40px;
+ }
+
+ .h{
+  width: 231px;
+  height: 274px;
+
+ }
+
+ .img{
+  border-radius: 50%;
+ }
+
+ /*Run Section*/
+
+ .run{
+  background-color: rgb(42, 39, 39);
+  width: 1000px;
+  height: 371px;
+  border-radius: 8px;
+  padding: 100px 190px 100px 190px;
+  display: flex;
+  align-items: center;
   
   
+ }
+
+ .imgr{
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+  padding: 30px 32px 35px 165px;
+
+ }
+
+ .runt{
+  width: 500px;
+  height: 290px;
+  padding: 40px 165px 150px 58px;
+
+
+ }
+
+ .runh{
+  font-size: 48px;
+ }
+
+ .runp{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+
+ }
+
+ .join{
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background-color: coral;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 600;
+ }
+
+
+ /*BMI Section*/
+
