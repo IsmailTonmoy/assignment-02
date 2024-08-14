@@ -21,13 +21,7 @@
   
 
   /*shared style*/
-/*
-  .display-flex{
-    display: flex;
-    text-align: center;
-    gap: ;
 
-  }*/
   .home{
     background-color: crimson;
     
@@ -41,6 +35,17 @@
     color: rgba(255, 255, 255, 0.5);
   }
 /* nav style*/
+
+.mbanner{
+  height: 776px;
+
+  background: rgba(44, 43, 43, 0.8);
+  
+}
+.fit{
+  padding: 0px 100px 0px 200px;
+
+}
 
 .navbar{
   display: flex;
@@ -180,7 +185,7 @@
   width: 146px;
   height: 20px;
   color: rgba(255, 255, 255, 0.5);
-  
+  text-align: center;
   
 }
   
@@ -190,6 +195,9 @@
   height: 452px;
   justify-content: center;
   padding: 100px 198px 100px 198px;
+  position: relative;
+  bottom: 100px;
+  
  }
 
  .title{
@@ -239,12 +247,15 @@
 
  .run{
   background-color: rgb(42, 39, 39);
-  width: 1000px;
-  height: 371px;
-  border-radius: 8px;
+  width: 700px;
+  height: 170px;
+  border-radius: 20px;
   padding: 100px 190px 100px 190px;
   display: flex;
-  align-items: center;
+  position: relative;
+  left: 160px;
+  
+  
   
   
  }
@@ -252,20 +263,27 @@
  .imgr{
   width: 366px;
   height: 312px;
-  border-radius: 18px;
-  padding: 30px 32px 35px 165px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 70px;
+  
 
  }
 
  .runt{
-  width: 500px;
+  width: 443px;
   height: 290px;
-  padding: 40px 165px 150px 58px;
-
+  padding: 10px 50px 0px 0px;
+  position: relative;
+  bottom: 100px;
+  right: 100px;
+  
 
  }
 
  .runh{
+  width: 443px;
+  height: 116px;
   font-size: 48px;
  }
 
