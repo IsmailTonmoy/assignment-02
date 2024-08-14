@@ -36,6 +36,17 @@
   }
 /* nav style*/
 
+.nav-item1{
+  width: 92px;
+  height: 38px;
+  background-color: rgb(214, 29, 29);
+  font-size: 18px;
+  list-style: none;
+  border-radius: 46px;
+  
+
+}
+
 .brand{
   color: rgba(230, 83, 60, 1);
   font-weight: 900;
@@ -55,6 +66,7 @@
 .navbar{
   justify-content: space-between;
 }
+
 
 
 
@@ -251,3 +263,50 @@ table{
 
 
 /*footer Section*/
+
+.mfooter{
+  width: 1440px;
+  height: 489px;
+  background-color:rgb(42, 39, 39);
+
+}
+
+
+.footer{
+  width: 1059px;
+  height: 249px;
+  padding: 66px 191px 174px 191px ;
+  display: flex;
+  gap: 102;
+}
+
+.fft{
+  width: 443px;
+  height: 176px;
+  padding: 0px 102px 73px 0px;
+
+}
+.ft{
+  width: 256px;
+  height: 84px;
+  font-size: 70px;
+  font-weight: 900;
+  font-style: italic;
+  color: brown;
+
+}
+
+.ft1{
+  width: 181px;
+  height: 249px;
+  padding: 66px 152px 79px 102px;
+
+}
+
+.ft2{
+  width: 181px;
+  height: 249px;
+  padding: 66px 192px 79px 102px;
+
+}
+
