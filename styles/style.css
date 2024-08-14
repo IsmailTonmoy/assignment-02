@@ -21,10 +21,16 @@
   
 
   /*shared style*/
-
+/*
   .display-flex{
     display: flex;
+    text-align: center;
+    gap: ;
 
+  }*/
+  .home{
+    background-color: crimson;
+    
   }
 
   .text-01{
@@ -35,6 +41,23 @@
     color: rgba(255, 255, 255, 0.5);
   }
 /* nav style*/
+
+.navbar{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.ul1{
+  box-shadow: 0px 0px 1px 0px;
+  display: flex;
+  text-align: center;
+  gap: 47px;
+  border-radius: 50px;
+  width: 445px;
+  height: 46px;
+  align-items: center; 
+
+}
 
 .nav-item1{
   width: 92px;
@@ -51,6 +74,8 @@
   color: rgba(230, 83, 60, 1);
   font-weight: 900;
   font-style: italic;
+  font-size: 36px;
+  font-weight: 900;
  
 }
 .nav-link{
@@ -70,20 +95,94 @@
 
 
 
-.img1{
- 
+.mainb{
+  display: flex;
+
+  
+}
+
+.banner{
+  width:599px;
+  height: 440px;
+  padding: 96px 88px 76px 190px;
 }
 
 .b1{
   width: 520px;
+  height: 440px;
+  row-gap: 28px;
+
+
+}
+.t01{
+  width: 520px;
+  height: 282px;
+  font-size: 78px;
+
 }
 
-.contain-01{
-  align-items: center;
-  justify-content: space-between;
+.t02{
+  width: 520px;
+  height: 48px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
+.btn-1{
+  background-color: crimson;
+  width:224px;
+  height: 54px;
+  border-radius: 42px;
+  font-size: 18px;
+  font-weight: 600;
+  color: aliceblue;
+}
 
+.bimg{
+  width: 349px;
+  height: 620px;
+  padding: 32px 214px 100px 88px;
+  
+
+}
+
+.card{
+  position: relative;
+}
+.c2{
+  width: 198px;
+  height: 98px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px 0px;
+  position: absolute;
+  bottom: 250px;
+  text-align: center;
+
+}
+.c1{
+  width: 198px;
+  height: 98px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px 0px ;
+  position: relative;
+  bottom: 600px;
+  left: 300px;
+  text-align: center;
+
+}
+
+.te01{
+  font-size: 40px;
+  font-weight: 600;
+  
+}
+.te02{
+  width: 146px;
+  height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  
+  
+}
   
  /* habit section*/
  .habit{
@@ -257,7 +356,7 @@ table{
 
 .tcontainer{
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 2 3fr;
 
 }
 
