@@ -18,7 +18,15 @@
     font-weight: 400;
     font-style: italic;
   }
-  
+  .home{
+    border-radius: 46px;
+    padding: .8rem 2rem;
+    background-color: crimson;
+    font-weight: 600;
+    position: relative;
+    right: 50px;
+    
+  }
 
   /*shared style*/
 
@@ -56,25 +64,21 @@
 .ul1{
   box-shadow: 0px 0px 1px 0px;
   display: flex;
-  text-align: center;
-  gap: 47px;
+  gap: 40px;
   border-radius: 50px;
-  width: 445px;
+  width: 480px;
   height: 46px;
   align-items: center; 
+ 
 
 }
 
-.nav-item1{
-  width: 92px;
-  height: 38px;
-  background-color: rgb(214, 29, 29);
-  font-size: 18px;
-  list-style: none;
-  border-radius: 46px;
-  
-
+.menu{
+  display: none;
+  font-size: 40px;
 }
+
+
 
 .brand{
   color: rgba(230, 83, 60, 1);
@@ -91,7 +95,8 @@
 
   .nav-item{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 20px;
+    
 
   }
 .navbar{
@@ -161,7 +166,40 @@
   position: absolute;
   bottom: 250px;
   text-align: center;
+  backdrop-filter: blur(10px);
 
+}
+
+.c{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: crimson;
+  margin-top: 30px;
+  margin-left: 20px;
+  
+}
+.ct{
+  width: 108px;
+  height: 56px;
+  position: relative;
+  bottom: 90px;
+  left: 50px;
+}
+
+.t300{
+  font-size: 24px;
+  font-weight: 800;
+  padding:20px 63px 52px 12px ;
+
+}
+.vt{
+  width:108px ;
+  padding:8px 23px 20px 12px ;
+  position: relative;
+  bottom: 75px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
 }
 .c1{
   width: 198px;
@@ -172,12 +210,14 @@
   bottom: 600px;
   left: 300px;
   text-align: center;
+  backdrop-filter: blur(10px);
 
 }
 
 .te01{
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 800;
+  padding: 10px 53px 41px 30px;
   
 }
 .te02{
@@ -185,6 +225,11 @@
   height: 20px;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
+  position: relative;
+  bottom: 75px;
+  left: 20px;
+  
+  
   
 }
   
@@ -413,14 +458,14 @@ table{
   width: 1060px;
   height: 604px;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr ;
-  column-gap: 20px;
+  grid-template-columns: 2fr 2fr 2fr ;
   background-color: rgb(53, 53, 53);
   padding: 20px 20px 50px 70px;
   align-items: center;
   position: relative;
   left: 140px;
   border-radius: 20px;
+  padding: 40px 30px 80px 60px;
 
 }
 
@@ -492,6 +537,18 @@ table{
 
 }
 
+.fb{
+  width: 1000px;
+  height: 2px;
+  box-shadow: 0px 1px 1px 0px;
+  
+  color: rgb(236, 238, 231);
+
+  position: relative;
+  bottom: 100px;
+  left: 240px;
+}
+
 .fp{
   width: 318px;
   height: 24;
@@ -499,7 +556,7 @@ table{
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
-  bottom: 50px;
+  bottom: 100px;
   left: 600px;
   text-align: center;
 }
@@ -507,10 +564,12 @@ table{
 /*responsive*/
 
 @media screen and (max-width: 576px) {
+
+
   
   
   .mbanner{
-    width: 1000px;
+    width: 100%;
     height: auto;
   }
   .mainb
@@ -518,6 +577,22 @@ table{
     flex-direction: column;
     
   }
+
+  .banner{
+    padding-left: 50px;
+  }
+
+ .brand{
+  position: relative;
+  right: 130px;
+ }
+.ul1{
+  display: none;
+}
+ .menu{
+  display: block;
+  color: aliceblue;
+ }
   /*habit*/
 
   .habit{
