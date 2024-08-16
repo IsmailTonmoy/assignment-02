@@ -1,3 +1,5 @@
+
+
 .inter-regular  {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -110,10 +112,12 @@
 .mainb{
   max-width: 100%;
   display: flex;
+  
+  
 }
 
 .banner{
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 96px 88px 76px 190px;
 }
@@ -233,10 +237,8 @@
   position: relative;
   bottom: 75px;
   left: 20px;
-  
-  
-  
 }
+
   
  /* habit section*/
  .habit{
@@ -409,8 +411,8 @@ table{
 
   .bmi-form{
     max-width: 577px;
-    
     margin: 0 auto; 
+    margin-bottom: 100px;
     
   }
 
@@ -452,8 +454,6 @@ table{
   margin: 0 auto;
   max-width: 100%;
   
-  padding: 138px 175px 280px 189px;
-
 }
 
 
@@ -508,12 +508,41 @@ table{
   left: 20px;
   
 }
+/*footer Section*/
+
+.feed{
+  max-width: 100%;
+  margin-top: 300px;
+  text-align: center;
+  box-shadow: 0px 0px 1px 1px ;
+}
+
+.form2{
+  
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  
+}
+.fee{
+  font-size: 60px;
+  color: darkgreen;
+}
+.tn{
+  background-color: coral;
+  width: 150px;
+  height: 40px;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+
 
 
 /*footer Section*/
 
 .mfooter{
-  width: 1440px;
+  max-width: 1440px;
   height: 489px;
   background-color:rgb(42, 39, 39);
   position: relative;
@@ -523,74 +552,77 @@ table{
 
 
 .footer{
-  width: 1059px;
+  max-width: 1059px;
   height: 249px;
-  padding: 66px 191px 174px 191px ;
   display: flex;
   gap: 102;
-  position: relative;
-  bottom: 100px;
+  margin: 0 auto;
 }
 
 .fft{
-  width: 443px;
+  max-width: 443px;
   height: 176px;
-  padding: 0px 102px 73px 0px;
+  
 
 }
 .ft{
-  width: 256px;
+  max-width: 256px;
   height: 84px;
   font-size: 4.3rem;
   font-weight: 900;
   font-style: italic;
   color: brown;
+  margin-top: 20px;
+  
 
 }
 .pt{
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
-  width: 443px;
-  position: relative;
-  bottom: 30px;
+  max-width: 443px;
+  
 }
 
 .ft1{
-  width: 181px;
+  max-width: 181px;
   height: 249px;
-  padding: 66px 110px 79px 0px;
+  margin: 0 auto;
+  margin-top: 50px;
+  
+  
   
 
 }
 
 .ft2{
-  width: 181px;
+  max-width: 181px;
   height: 249px;
-  padding: 66px 192px 79px 102px;
+  margin-top: 50px;
+  
+  
   
 
 }
 
 .fb{
-  width: 1000px;
+  max-width: 1000px;
   height: 2px;
   box-shadow: 0px 1px 1px 0px;
   color: rgb(236, 238, 231);
-  position: relative;
-  bottom: 100px;
-  left: 240px;
+  margin: 0 auto;
+  margin-top: 150px;
+ 
+  
 }
 
 .fp{
-  width: 318px;
+  max-width: 318px;
   height: 24;
   font-size: 20;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
-  position: relative;
-  bottom: 100px;
-  left: 600px;
-  text-align: center;
+  margin: 0 auto;
+  
 }
 
 .ulf1{
@@ -659,13 +691,21 @@ table{
   /*bmi*/
 
   .bmi-c{ 
-    margin: 0 auto;
+    max-height: 100%;
+  
     flex-direction: column;
+  }
+
+  .bmi-chart{
+    position: relative;
+    top: 850px;
+  
+    margin: 0 auto;
   }
 
   
 .bmi-form{
-  margin-top: 200px;
+  margin-top: 900px;
 }
 
 .intro{
@@ -677,7 +717,7 @@ table{
   /*team*/
   .team{
     position: relative;
-    top: 1000px;
+    top: 30px;
     
     
   }
@@ -686,7 +726,7 @@ table{
     height: auto;
     grid-template-columns: 1fr;
     position: relative;
-    top: 1100px;
+    top: 100px;
     
     
     
@@ -695,6 +735,7 @@ table{
 .mfooter{
   width: auto;
   height: auto;
+  
 }
 
 .footer{
@@ -702,9 +743,18 @@ table{
   flex-direction: column;
 }
 .fp{
-  margin-top: 500px;
+  
   position: relative;
-  left: 200px;
+  
+}
+.fb{
+  margin-top: 500px;
+}
+.ft1{
+  margin-left: 10px;
+}
+.ft2{
+  margin-left: 10px;
 }
 
 }
