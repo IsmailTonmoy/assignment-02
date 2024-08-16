@@ -7,7 +7,7 @@
 
   .body{
     background-color: black;
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0px auto;
 
   }
@@ -20,11 +20,11 @@
   }
   .home{
     border-radius: 46px;
-    padding: .8rem 2rem;
+    padding: .9rem 2rem;
     background-color: crimson;
     font-weight: 600;
     position: relative;
-    right: 50px;
+    right: 40px;
     
   }
 
@@ -45,7 +45,8 @@
 /* nav style*/
 
 .mbanner{
-  height: 776px;
+  max-width: 100%;
+  margin: 0 auto;
 
   background: rgba(44, 43, 43, 0.8);
   position: relative;
@@ -107,17 +108,18 @@
 
 
 .mainb{
+  max-width: 100%;
   display: flex;
 }
 
 .banner{
-  width:599px;
-  height: 440px;
+  max-width: 90%;
+  margin: 0 auto;
   padding: 96px 88px 76px 190px;
 }
 
 .b1{
-  width: 520px;
+  max-width: 520px;
   height: 440px;
   row-gap: 28px;
 
@@ -357,6 +359,17 @@
   padding: 88px 384.5px 88px 384.5px;
   
  }
+
+ .bmt{
+  font-weight: 433px;
+  font-size: 27px;
+  font-weight: 800;
+ }
+ .bmtp{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 20px;
+ }
  .bmih{
   font-weight: 600;
   font-size: 48px;
@@ -393,7 +406,7 @@ table{
   .bmi-form{
     width: 577px;
     height: 380px;
-    padding: 49px 200px 52px 50px;
+    padding: 49px 200px 120px 50px;
   }
 
   
@@ -432,7 +445,7 @@ table{
 }
 
 .bmi-chart{
-  padding: 138px 175px 133px 189px;
+  padding: 138px 175px 280px 189px;
 
 }
 
@@ -451,7 +464,7 @@ table{
   font-weight: 700;
 }
 .mp{
-  color: rgba(255, 255, 255, 0.5);;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .tcontainer{
@@ -504,6 +517,8 @@ table{
   padding: 66px 191px 174px 191px ;
   display: flex;
   gap: 102;
+  position: relative;
+  bottom: 100px;
 }
 
 .fft{
@@ -521,11 +536,19 @@ table{
   color: brown;
 
 }
+.pt{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  width: 443px;
+  position: relative;
+  bottom: 30px;
+}
 
 .ft1{
   width: 181px;
   height: 249px;
-  padding: 66px 152px 79px 102px;
+  padding: 66px 110px 79px 0px;
+  
 
 }
 
@@ -541,9 +564,7 @@ table{
   width: 1000px;
   height: 2px;
   box-shadow: 0px 1px 1px 0px;
-  
   color: rgb(236, 238, 231);
-
   position: relative;
   bottom: 100px;
   left: 240px;
@@ -561,6 +582,13 @@ table{
   text-align: center;
 }
 
+.ulf1{
+  position: relative;
+  right: 40px;
+  width: 120px;
+  height: 42px;
+}
+
 /*responsive*/
 
 @media screen and (max-width: 576px) {
@@ -568,10 +596,7 @@ table{
 
   
   
-  .mbanner{
-    width: 100%;
-    height: auto;
-  }
+ 
   .mainb
   {
     flex-direction: column;
@@ -579,7 +604,7 @@ table{
   }
 
   .banner{
-    padding-left: 50px;
+    padding-left: 0px;
   }
 
  .brand{
