@@ -252,21 +252,26 @@
 
   text-align: center;
   max-width: 671px;
-  height: 120px;
-  padding: 0px 186.5px 58px 186.5px;
+  margin: 0 auto;
+
+  
+  
  }
 
  .title1{
-  width: 476px;
+  max-width: 476px;
   height: 58px;
   font-size: 48px;
-  padding: 0px 97.5px 5px 97.5px;
+  margin: 0 auto;
   
  }
 
  .p1{
   
+  margin-top: 40px;
   color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  
  }
 
  .p2{
@@ -279,10 +284,11 @@
   text-align: center;
   padding-top: 58px;
   gap: 40px;
+  align-items: center;
  }
 
  .h{
-  width: 231px;
+  max-width: 231px;
   height: 274px;
 
  }
@@ -626,14 +632,8 @@ table{
  }
   /*habit*/
 
-  .habit{
-    margin-top: 100px;
-  }
-  .title{
-    position: relative;
-    right: 350px;
-    
-  }
+
+ 
   .habits{
     flex-direction: column;
     
