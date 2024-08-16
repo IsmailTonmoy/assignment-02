@@ -122,18 +122,21 @@
   max-width: 520px;
   height: 440px;
   row-gap: 28px;
+  position: relative;
+  bottom: 100px;
+  
 
 
 }
 .t01{
-  width: 520px;
-  height: 282px;
+  max-width: 520px;
+  
   font-size: 78px;
 
 }
 
 .t02{
-  width: 520px;
+  max-width: 520px;
   height: 48px;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.5);
@@ -150,9 +153,9 @@
 }
 
 .bimg{
-  width: 349px;
+  max-width: 349px;
   height: 620px;
-  padding: 32px 214px 100px 88px;
+  
   
 
 }
@@ -204,13 +207,13 @@
   text-align: left;
 }
 .c1{
-  width: 198px;
+  max-width: 198px;
   height: 98px;
   border-radius: 12px;
   box-shadow: 0px 0px 4px 0px ;
   position: relative;
-  bottom: 600px;
-  left: 300px;
+  bottom: 550px;
+  left: 200px;
   text-align: center;
   backdrop-filter: blur(10px);
 
@@ -237,19 +240,18 @@
   
  /* habit section*/
  .habit{
-  width: 1044px;
+  max-width: 1044px;
   height: 452px;
-  justify-content: center;
-  padding: 100px 198px 100px 198px;
-  position: relative;
-  bottom: 100px;
+  margin: 0 auto;
+ 
+  
   
  }
 
  .title{
 
   text-align: center;
-  width: 671px;
+  max-width: 671px;
   height: 120px;
   padding: 0px 186.5px 58px 186.5px;
  }
@@ -603,13 +605,17 @@ table{
     
   }
 
+  .t02{
+
+  }
+
   .banner{
     padding-left: 0px;
   }
 
  .brand{
   position: relative;
-  right: 130px;
+  right: 180px;
  }
 .ul1{
   display: none;
