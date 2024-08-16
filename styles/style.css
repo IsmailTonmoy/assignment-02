@@ -352,9 +352,11 @@
 
  .intro{
   text-align: left;
-  width:671px;
+  max-width:671px;
   height: 120px;
-  padding: 88px 384.5px 88px 384.5px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
   
  }
 
@@ -366,7 +368,7 @@
  .bmtp{
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
-  padding-bottom: 20px;
+  
  }
  .bmih{
   font-weight: 600;
@@ -374,16 +376,27 @@
  }
 
  .bmip{
+  max-width: 500px;
+  height: 50px;
   color: rgba(255, 255, 255, 0.5);
  }
 
- table, th, td {
-  border:1px solid rgb(200, 198, 198);
+ .bmi-c{
+  max-width: 100% ;
+  background-color:rgb(42, 39, 39) ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 170px;
+}
+
+table, th, td {
+  border:2px solid rgb(200, 198, 198);
 }
 
 table{
-  width: 310px;
-  height: 216px;
+  width: 350px;
+  height: 300px;
   border-collapse: collapse;
   }
 
@@ -391,26 +404,20 @@ table{
     text-align: center;
   }
 
-  .bmi-c{
-    width: 1440px ;
-    height: 487px;
-    background-color:rgb(42, 39, 39) ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  
 
 
   .bmi-form{
-    width: 577px;
-    height: 380px;
-    padding: 49px 200px 120px 50px;
+    max-width: 577px;
+    
+    margin: 0 auto; 
+    
   }
 
   
 
   .f{
-    width: 282.5px;
+    max-width: 282.5px;
     height: 48px;
     background-color: rgb(53, 53, 53);
     border-radius: 8px;
@@ -418,8 +425,7 @@ table{
   }
 
 .form{
-  width: 577px;
-
+  max-width: 577px;
   display: grid;
   grid-template-columns: 2fr 2fr ;
   column-gap: 12px;
@@ -443,6 +449,9 @@ table{
 }
 
 .bmi-chart{
+  margin: 0 auto;
+  max-width: 100%;
+  
   padding: 138px 175px 280px 189px;
 
 }
@@ -451,10 +460,13 @@ table{
 /*Team Section*/
 
 .team{
-  width: 671px;
+  margin: 0 auto;
+  max-width: 671px;
   height: 120px;
   text-align: center;
-  padding: 88px 384.5px 120px 384.5px;
+  position: relative;
+  top: 100px;
+  
   
 }
 .mh{
@@ -466,17 +478,18 @@ table{
 }
 
 .tcontainer{
-  width: 1060px;
+  max-width: 1060px;
   height: 604px;
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr ;
+  grid-template-columns: repeat(3,1fr);
   background-color: rgb(53, 53, 53);
   padding: 20px 20px 50px 70px;
   align-items: center;
   position: relative;
-  left: 140px;
+  top: 200px;
   border-radius: 20px;
-  padding: 40px 30px 80px 60px;
+  margin: 0 auto;
+  
 
 }
 
@@ -638,27 +651,44 @@ table{
     top: 1000px;
     gap: 40px;
   }
+  .imgr{
+    width: 400px;
+  }
 
 
   /*bmi*/
 
-  .bmi-c{
-    width: auto;
-    height: auto;
+  .bmi-c{ 
+    margin: 0 auto;
     flex-direction: column;
   }
 
+  
+.bmi-form{
+  margin-top: 200px;
+}
+
+.intro{
+  position: relative;
+  top: 950px;
+  margin: 0 auto;
+ 
+}
   /*team*/
   .team{
-    
-    margin-top: 400px;
     position: relative;
+    top: 1000px;
+    
+    
   }
   .tcontainer{
     width: auto;
     height: auto;
     grid-template-columns: 1fr;
     position: relative;
+    top: 1100px;
+    
+    
     
   }
 /*footer*/
